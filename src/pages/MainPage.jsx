@@ -1,3 +1,5 @@
+import projects from '../projects.json'
+
 const MainPage = () => {
   return (
     <div style={{ marginTop: '5rem', background: 'rgb(2, 32, 15)', color: 'white' }}>
@@ -10,7 +12,7 @@ const MainPage = () => {
       </header>
       <section>
         <div>
-          
+          {JSON.stringify(projects)}
         </div>
       </section>
     </div>
