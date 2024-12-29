@@ -8,7 +8,7 @@ const MainPage = () => {
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <img src="images/portfolioImage1.jpg" alt="Guillermo Fernandez" className='photoMain mx-auto' />
         </div>
-        <div className='d-flex nameHeaderContainer d-lg-none my-4'>
+        <div className='d-flex nameHeaderContainer d-lg-none mt-4'>
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '1.5rem'}} />
           <h1 style={{ textAlign: 'start', fontSize: '1.15rem', marginBottom: 0, display: 'inline' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
