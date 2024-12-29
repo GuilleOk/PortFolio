@@ -10,7 +10,7 @@ const MainPage = () => {
         </div>
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '2rem'}} />
-          <h1 style={{ textAlign: 'center', fontSize: '2vw' }}>Guillermo Alfredo Fernández Martínez</h1>
+          <h1 style={{ textAlign: 'center', fontSize: '1.45vw' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
       </header>
