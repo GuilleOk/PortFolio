@@ -33,12 +33,12 @@ const MainPage = () => {
                 <h2 style={{textAlign: 'center', fontSize: '2.8rem'}} className="my-0">Proyectos</h2>
               </div>
           </div>
-          <div className="d-flex justify-content-start align-items-center gap-3 mx-5 px-5 d-lg-none">
+          <div className="d-flex justify-content-start align-items-center gap-3 mx-4 d-lg-none">
               <div>
                 <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '1.2rem' }} />
               </div>
               <div>
-                <h2 style={{textAlign: 'center', fontSize: '1.2rem'}} className="my-0">Proyectos</h2>
+                <h2 style={{textAlign: 'center', fontSize: '1.2rem', marginBottom: 0}} className="my-0">Proyectos</h2>
               </div>
           </div>
         </div>
