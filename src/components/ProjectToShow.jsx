@@ -21,7 +21,7 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
                 </div>              
               </a>
             </div>
-            <p style={{margin: '1.5rem'}}>{description}</p>
+            <p style={{margin: '1.5rem', textAlign: 'justify'}}>{description}</p>
             <div className="d-flex gap-2 align-items-center my-3 mx-5 px-2 technologysContainer">
               {technologys.map(({ tech, techPhoto }) => {
                 return (
