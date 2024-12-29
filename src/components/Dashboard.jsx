@@ -9,10 +9,10 @@ const Dashboard = () => {
             <a className="navbar-brand" href="#">
               <img src='images/portfolioImage1.jpg' className="navbarPhoto" />
               <span className="d-sm-inline-block textNavbarSM d-lg-none">
-                Guillermo Alfredo Fernández Martínez
+                Guillermo A. Fernández Martínez
               </span>
               <span className="d-none d-lg-inline-block textNavbar">
-                Guillermo A. Fernández Martínez
+                Guillermo Alfredo Fernández Martínez
               </span>
             </a>
         </div>
