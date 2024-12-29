@@ -8,7 +8,7 @@ const MainPage = () => {
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <img src="images/portfolioImage1.jpg" alt="Guillermo Fernandez" className='photoMain mx-auto' />
         </div>
-        <div className='d-flex nameHeaderContainer d-lg-none'>
+        <div className='d-flex nameHeaderContainer d-lg-none my-4'>
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '1.5rem'}} />
           <h1 style={{ textAlign: 'start', fontSize: '1.15rem', marginBottom: 0, display: 'inline' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
@@ -16,7 +16,7 @@ const MainPage = () => {
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3rem'}} />
           <h1 style={{ textAlign: 'start', fontSize: '2.45rem', marginBottom: 0 }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
-        <div className='d-block d-lg-none mx-3 my-4'>
+        <div className='d-block d-lg-none mx-3'>
           <p style={{textAlign: 'center', fontSize: '.6rem'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
         </div>
         <div className='d-none d-lg-block'>
