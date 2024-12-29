@@ -25,12 +25,20 @@ const MainPage = () => {
       </header>
       <section>
         <div className="container" style={{marginTop: '5rem'}}>
-          <div className="d-flex justify-content-start align-items-center gap-3 mx-5 px-5">
+          <div className="d-none d-lg-flex justify-content-start align-items-center gap-3 mx-5 px-5">
               <div>
                 <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '2.8rem' }} />
               </div>
               <div>
                 <h2 style={{textAlign: 'center', fontSize: '2.8rem'}} className="my-0">Proyectos</h2>
+              </div>
+          </div>
+          <div className="d-flex justify-content-start align-items-center gap-3 mx-5 px-5 d-lg-none">
+              <div>
+                <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '1.2rem' }} />
+              </div>
+              <div>
+                <h2 style={{textAlign: 'center', fontSize: '1.2rem'}} className="my-0">Proyectos</h2>
               </div>
           </div>
         </div>
