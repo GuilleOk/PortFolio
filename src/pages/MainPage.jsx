@@ -14,7 +14,7 @@ const MainPage = () => {
         </div>
         <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
       </header>
-      <section>
+      {/* <section>
         <div className="container" style={{marginTop: '5rem'}}>
           <div className="d-flex justify-content-start align-items-center gap-3 mx-5 px-5">
               <div>
@@ -32,7 +32,7 @@ const MainPage = () => {
               )
             })
           }
-      </section>
+      </section> */}
     </div>
   )
 }
