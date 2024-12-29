@@ -2,6 +2,7 @@ html{
   min-height: 100vh;
   color: white;
   background-color: rgb(2, 32, 15);
+  /* font-family: 'Arial Narrow'; */
   /* overflow-x: ; */
 }
 
@@ -24,7 +25,7 @@ html{
 .navbarPhoto{
   width: 2.8rem;
   height: auto;
-  margin-right: 1rem;
+  margin-right: .5rem;
   border-radius: 100%;
   margin-top: auto;
   border: .1rem solid white;
