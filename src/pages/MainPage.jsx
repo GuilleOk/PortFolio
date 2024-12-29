@@ -8,11 +8,20 @@ const MainPage = () => {
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <img src="images/portfolioImage1.jpg" alt="Guillermo Fernandez" className='photoMain mx-auto' />
         </div>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div className='d-flex nameHeaderContainer d-lg-none'>
+          <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '1.5rem'}} />
+          <h1 style={{ textAlign: 'start', fontSize: '1.15rem', marginBottom: 0, display: 'inline' }}>Guillermo Alfredo Fernández Martínez</h1>
+        </div>
+        <div className='d-none d-lg-flex nameHeaderContainer'>
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3rem'}} />
           <h1 style={{ textAlign: 'start', fontSize: '2.45rem', marginBottom: 0 }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
-        <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
+        <div className='d-block d-lg-none'>
+          <p style={{textAlign: 'center', fontSize: '.6rem'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
+        </div>
+        <div className='d-none d-lg-block'>
+          <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
+        </div>
       </header>
       {/* <section>
         <div className="container" style={{marginTop: '5rem'}}>
