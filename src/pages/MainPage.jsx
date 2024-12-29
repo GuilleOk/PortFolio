@@ -16,7 +16,7 @@ const MainPage = () => {
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3rem'}} />
           <h1 style={{ textAlign: 'start', fontSize: '2.45rem', marginBottom: 0 }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
-        <div className='d-block d-lg-none'>
+        <div className='d-block d-lg-none mx-3'>
           <p style={{textAlign: 'center', fontSize: '.6rem'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
         </div>
         <div className='d-none d-lg-block'>
