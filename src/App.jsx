@@ -5,6 +5,7 @@ import Projects from './pages/Projects'
 import LearningPath from './pages/LearningPath'
 import ErrorPage from './pages/ErrorPage'
 import Dashboard from './components/Dashboard'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/my_learning_path' element={<LearningPath />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
+      {/* <Footer /> */}
     </BrowserRouter>
   )
 }
