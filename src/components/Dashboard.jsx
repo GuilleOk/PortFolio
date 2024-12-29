@@ -6,7 +6,15 @@ const Dashboard = () => {
       <nav className="navbar navbar-expand-lg backgroundNavbar" data-bs-theme='dark'>
       <div className="containerNavbar">
         <div>
-          <a className="navbar-brand d-sm-textNavbarSM d-lg-textNavbar" href="#"><img src='images/portfolioImage1.jpg' className="navbarPhoto" /><span>Guillermo ALfredo Fernández Martínez</span></a>
+            <a className="navbar-brand" href="#">
+              <img src='images/portfolioImage1.jpg' className="navbarPhoto" />
+              <span className="d-sm-inline-block textNavbarSM d-lg-none">
+                Guillermo ALfredo Fernández Martínez
+              </span>
+              <span className="d-none d-lg-inline-block textNavbar">
+                Guillermo ALfredo Fernández Martínez
+              </span>
+            </a>
         </div>
         <div style={{width: 'auto'}}>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
