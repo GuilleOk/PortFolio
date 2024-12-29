@@ -1,56 +1,56 @@
 [
   {
     "name": "Click & Chic",
-    "technologys": ["React.JS", "CSS3", "React Router Dom", "Javascript", "API REST"],
-    "description": "Es el Front-End de una tienda online, que se alimenta de una REST API, desarrollado con React.JS, CSS3 y React Router Dom.",
+    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "React Router", "techPhoto": "images/technologys/react-router.svg"}, {"tech": "js", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
+    "description": "Es el Front-End de una tienda online, que se alimenta de una REST API, desarrollado con React.js, CSS3 y React Router Dom.",
     "image": "images/pagePictures/Click & Chic.png",
     "showInMain": true,
-    "url": "###",
+    "url": "/projects/Simple_E-Commers/index.html",
     "urlCode": "....."
   },
   {
     "name": "AllNews",
-    "technologys": ["React.JS", "CSS3", "Javascript", "API REST"],
+    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "js", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
     "description": "Es un feed de noticias, el cual posee varios temas, que se puede personalizar en dependencia de las preferencias del usuario",
     "image": "images/pagePictures/AllNews.png",
     "showInMain": true,
-    "url": "###",
+    "url": "/projects/Feed_de_noticias/index.html",
     "urlCode": "....."
   },
   {
     "name": "Dynamic Gallery",
-    "technologys": ["React.JS", "CSS3", "Bootstrap", "Javascript", "API REST"],
+    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/bootstrap.png"}, {"tech": "js", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
     "description": "Galería dinámica alimentada por las búsquedas del usuario, dichas búsquedas se alimentan de una REST API.",
     "image": "images/pagePictures/Dynamic_Gallery.png",
     "showInMain": true,
-    "url": "###",
+    "url": "/projects/Dynamic_Gallery/index.html",
     "urlCode": "....."
   },
   {
     "name": "Questions Game",
-    "technologys": ["React.JS", "CSS3", "Javascript", "API REST"],
+    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "js", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
     "description": "Un juego de dos jugadores en el que cada uno tiene que responder 5 preguntas, 1 por cada turno, y al final gana el que más respuestas correctas tenga.",
     "image": "images/pagePictures/Questions_Game.png",
     "showInMain": true,
-    "url": "###",
+    "url": "/projects/Questions_Game/index.html",
     "urlCode": "....."
   },
   {
     "name": "Sky's Products",
-    "technologys": ["React.JS", "CSS3", "Javascript", "API REST"],
+    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "js", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
     "description": "Es el Front-End de un carrito una tienda online, que se alimenta de una REST API, desarrollado con React.JS y CSS3.",
     "image": "images/pagePictures/Skys_Products.png",
     "showInMain": false,
-    "url": "###",
+    "url": "/projects/Skys_Products",
     "urlCode": "....."
   },
   {
     "name": "Money Values Changer",
-    "technologys": ["React.JS", "CSS3", "Bootstrap", "Javascript", "API REST"],
+    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/boostrap.png"}, {"tech": "js", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
     "description": "En esta página se puede cambiar dinero de una moneda a otra, la taza de cambio es obtenida de una REST API.",
     "image": "images/pagePictures/Money_Values_Changer.png",
     "showInMain": false,
-    "url": "###",
+    "url": "/projects/Money_changer/index.html",
     "urlCode": "....."
   }
 ]

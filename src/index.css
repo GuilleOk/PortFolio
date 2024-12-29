@@ -39,6 +39,7 @@ html{
   gap: 1rem;
   flex-wrap: wrap;
   padding: .2rem;
+  z-index: 1000;
 }
 
 .textNavbar{
@@ -69,4 +70,38 @@ html{
   height: auto;
   border: .3rem solid white;
   border-radius: 100%;
+}
+
+.projectToShow{
+  width: 60%;
+}
+
+.technologys{
+  background-color: antiquewhite;
+  padding: .3rem .8rem;
+  color: black;
+  border-radius: 2rem;
+}
+
+.btn-something{
+  background-color: rgb(159, 248, 171);
+}
+
+.btn-something:hover{
+  background-color: white;
+  color: black;
+  scale: 1.1;
+}
+
+.technologysContainer{
+  flex-wrap: wrap;
+}
+
+.imageProject{
+  width: 100%;
+}
+
+.imageProject:hover{
+  transition-duration: 300ms;
+  scale: 1.05;
 }
