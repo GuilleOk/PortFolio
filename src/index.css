@@ -22,7 +22,7 @@ html{
 }
 
 .navbarPhoto{
-  width: 3rem;
+  width: 4vw;
   height: auto;
   margin-right: 1rem;
   border-radius: 100%;
@@ -55,7 +55,7 @@ html{
 }
 
 .socialMediaPhoto{
-  width: 2.4rem;
+  width: 3vw;
   height: auto;
 }
 
