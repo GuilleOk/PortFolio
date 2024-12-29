@@ -14,7 +14,7 @@
     "description": "Es un feed de noticias, el cual posee varios temas, que se puede personalizar en dependencia de las preferencias del usuario",
     "image": "images/pagePictures/AllNews.png",
     "showInMain": true,
-    "url": "/projects/Feed_de_noticias/index.html",
+    "url": "https://feed-de-noticias-rho.vercel.app/",
     "urlCode": "....."
   },
   {
