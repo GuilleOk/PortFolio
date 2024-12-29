@@ -45,6 +45,13 @@ html{
 .textNavbar{
   margin-top: 0px;
   color: white;
+  font-size: 1.2rem;
+}
+
+.textNavbarSM{
+  margin-top: 0px;
+  color: white;
+  font-size: .8rem;
 }
 
 .activeLink{
