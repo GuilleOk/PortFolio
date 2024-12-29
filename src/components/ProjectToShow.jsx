@@ -17,7 +17,7 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
               <a className="btn btn-something" href={urlCode} target="_blank">
                 <div className="d-flex gap-1 h-auto p-0 m-0">
                   <p className="m-0"><strong>Código</strong></p>
-                  <img src="/public/images/link.png" alt="arrow" style={{ height: '1.2rem' }} />
+                  <img src="images/link.png" alt="arrow" style={{ height: '1.2rem' }} />
                 </div>              
               </a>
             </div>
