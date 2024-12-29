@@ -12,7 +12,7 @@ const Dashboard = () => {
                 Guillermo Alfredo Fernández Martínez
               </span>
               <span className="d-none d-lg-inline-block textNavbar">
-                Guillermo Alfredo Fernández Martínez
+                Guillermo A. Fernández Martínez
               </span>
             </a>
         </div>
