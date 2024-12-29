@@ -6,7 +6,7 @@ const Dashboard = () => {
       <nav className="navbar navbar-expand-lg backgroundNavbar" data-bs-theme='dark'>
       <div className="containerNavbar">
         <div>
-          <a className="navbar-brand textNavbar" style={{fontSize: '1.45vw'}} href="#"><img src='images/portfolioImage1.jpg' className="navbarPhoto" /><span>Guillermo ALfredo Fernández Martínez</span></a>
+          <a className="navbar-brand textNavbar" style={{fontSize: '1.7vw'}} href="#"><img src='images/portfolioImage1.jpg' className="navbarPhoto" /><span>Guillermo ALfredo Fernández Martínez</span></a>
         </div>
         <div style={{width: 'auto'}}>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
