@@ -46,13 +46,13 @@ html{
 .textNavbar{
   margin-top: 0px;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .textNavbarSM{
   margin-top: 0px;
   color: white;
-  font-size: .9rem;
+  font-size: 1.1rem;
 }
 
 .activeLink{
@@ -60,7 +60,7 @@ html{
   text-shadow: 0px 0px 20px white;
   margin-top: 0px;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .socialMediaPhoto{
