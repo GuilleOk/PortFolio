@@ -33,10 +33,15 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
                 )
               })}
             </div>
-            <div className="container">
-              <a href={url} target="_blank">
+            <div className="container photoProjectAllContainer">
+              <div className="arrowProjectGOContainer">
+                <a href={url} target="_blank">
+                  <img src="images/flecha-adelante2.png" alt="go" className="arrowProjectGO" />
+                </a>
+              </div>
+              <div>
                 <img src={image} alt="project image" className="imageProject" />
-              </a>
+              </div>
             </div>
           </div>
         </header>

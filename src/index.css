@@ -101,7 +101,31 @@ html{
   width: 100%;
 }
 
-.imageProject:hover{
+.photoProjectAllContainer:hover{
   transition-duration: 200ms;
-  scale: 1.05;
+  box-shadow: 0 0 10px white;
+}
+
+.arrowProjectGO{
+  width: 2.2rem;
+  filter: invert(100%);
+}
+
+.photoProjectAllContainer{
+  display: flex;
+  position: relative;
+  padding: 0;
+}
+
+.arrowProjectGOContainer{
+  background-color: darkred;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 0;
+}
+
+.arrowProjectGOContainer:hover{
+  scale: 1.1;
+  box-shadow: 0 0 10px darkred;
 }
