@@ -55,7 +55,7 @@ html{
 }
 
 .socialMediaPhoto{
-  width: 3vw;
+  width: 2.4rem;
   height: auto;
 }
 
@@ -66,7 +66,7 @@ html{
 }
 
 .photoMain{
-  width: 20vw;
+  width: 13rem;
   height: auto;
   border: .3rem solid white;
   border-radius: 100%;
