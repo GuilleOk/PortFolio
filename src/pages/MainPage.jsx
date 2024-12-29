@@ -9,8 +9,8 @@ const MainPage = () => {
           <img src="images/portfolioImage1.jpg" alt="Guillermo Fernandez" className='photoMain mx-auto' />
         </div>
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-          <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3.8rem'}} />
-          <h1 style={{ textAlign: 'center', fontSize: '3.8rem' }}>Guillermo Alfredo Fernández Martínez</h1>
+          <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3vw'}} />
+          <h1 style={{ textAlign: 'center', fontSize: '2vw' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
       </header>
