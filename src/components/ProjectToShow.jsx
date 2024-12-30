@@ -10,7 +10,7 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
                   <img src="images/arrow.png" alt="arrow" style={{ filter: 'invert(100%)', height: '2.8rem' }} />
                </div>
                 <div>
-                  <h2 style={{textAlign: 'center', fontSize: '2.8rem', color: 'rgb(159, 248, 171)'}} className="my-0">{name}</h2>
+                  <h2 style={{textAlign: 'center', fontSize: '2.2rem', color: 'rgb(159, 248, 171)'}} className="my-0">{name}</h2>
                 </div>
               </div>
               <a className="btn btn-something" href={urlCode} target="_blank">
