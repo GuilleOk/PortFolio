@@ -44,8 +44,8 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
             </div>
           </div>
       </div>
-      <div className="d-flex d-lg-none flex-column justify-content-center projectToShowSM my-3">
-          <div className="col-12 mx-2">
+      <div className="d-flex d-lg-none flex-column justify-content-center projectToShowSM my-5">
+          <div className="col-12 mx-3">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex justify-content-start align-items-center gap-3">
                <div>
@@ -57,8 +57,8 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
               </div>
               <a className="btn btn-something" href={urlCode} target="_blank">
                 <div className="d-flex gap-1 h-auto p-0 m-0">
-                  <p className="m-0" style={{fontSize: '1rem'}}><strong>Código</strong></p>
-                  <img src="images/link.png" alt="arrow" style={{ height: '1rem' }} />
+                  <p className="m-0" style={{fontSize: '.8rem'}}><strong>Código</strong></p>
+                  <img src="images/link.png" alt="arrow" style={{ height: '.8rem' }} />
                 </div>              
               </a>
             </div>
