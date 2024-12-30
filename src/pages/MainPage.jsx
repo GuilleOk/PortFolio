@@ -24,7 +24,7 @@ const MainPage = () => {
       </header>
       <section>
         <div className="container mb-2">
-          <div className="d-none d-lg-flex justify-content-start align-items-center gap-3 mx-5 px-5" style={{marginTop: '5rem'}}>
+          <div className="d-none d-lg-flex justify-content-start align-items-center gap-3 mx-5 px-5" style={{marginTop: '3rem'}}>
               <div>
                 <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '2.7rem' }} />
               </div>
