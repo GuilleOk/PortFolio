@@ -9,7 +9,7 @@ const MainPage = () => {
           <img src="images/portfolioImage1.jpg" alt="Guillermo Fernandez" className='photoMain mx-auto' />
         </div>
         <div className='d-flex nameHeaderContainer d-lg-none mt-4'>
-          <h1 style={{ textAlign: 'center', fontFamily: 'Arial Narrow',fontSize: '2.2rem', marginBottom: 0, display: 'inline', color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
+          <h1 style={{ textAlign: 'center', fontFamily: 'Arial Narrow',fontSize: '2.2rem', marginBottom: '1rem', display: 'inline', color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <div className='d-none d-lg-flex nameHeaderContainer'>
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3rem'}} />
@@ -32,7 +32,7 @@ const MainPage = () => {
                 <h2 style={{textAlign: 'center', fontSize: '2.8rem', textShadow: '0 0 10px white'}} className="my-0">Proyectos</h2>
               </div>
           </div>
-          <div className="d-flex justify-content-start align-items-center gap-3 mx-3 d-lg-none" style={{marginTop: '2rem'}}>
+          <div className="d-flex justify-content-start align-items-center gap-3 mx-3 d-lg-none" style={{marginTop: '1.2rem'}}>
               <div>
                 <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '1.4rem' }} />
               </div>
