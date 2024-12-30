@@ -62,14 +62,20 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
                 </div>              
               </a>
             </div>
-            <p style={{margin: '1.5rem', textAlign: 'justify'}}>{description}</p>
-            <div className="d-flex gap-2 align-items-center my-3 mx-5 px-2 technologysContainer">
+            <p style={{margin: '1.5rem', textAlign: 'justify'}} className="d-none d-lg-block">{description}</p>
+            <p style={{margin: '1rem', fontSize: '.7rem', textAlign: 'justify'}} className="d-sm-block d-lg-none">{description}</p>
+            <div className="d-flex gap-1 align-items-center my-3 px-2 technologysContainer">
               {technologys.map(({ tech, techPhoto }) => {
                 return (
-                  <div key={`${name}${tech}`} className="d-flex align-items-center gap-2 mx-2 technologys">
-                    <img src={techPhoto} alt={tech} style={{ height: '2rem'}} />
-                    {tech}
-                    {/* <p>{tech}</p> */}
+                  <div key={`${name}${tech}`} >
+                    <div className="d-none d-lg-flex align-items-center mx-5 gap-2 technologys">
+                      <img src={techPhoto} alt={tech} style={{ height: '2rem'}} className="d-none d-lg-inline" />
+                      <spam className='d-none d-lg-inline'>{tech}</spam>
+                    </div>
+                    <div className="d-flex mx-2 align-items-center technologysSM d-lg-none">
+                      <img src={techPhoto} alt={tech} style={{ height: '1rem'}} className="d-inline d-lg-none" />
+                      <spam style={{fontSize: '.5rem'}} className='d-inline d-lg-none'>{tech}</spam>
+                    </div>
                   </div>
                 )
               })}
