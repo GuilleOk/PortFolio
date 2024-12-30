@@ -137,6 +137,11 @@ html{
   filter: invert(100%);
 }
 
+.arrowProjectGOSM{
+  width: 1rem;
+  filter: invert(100%);
+}
+
 .photoProjectAllContainer{
   display: flex;
   position: relative;
@@ -152,6 +157,20 @@ html{
 }
 
 .arrowProjectGOContainer:hover{
+  scale: 1.1;
+  box-shadow: 0 0 10px darkred;
+}
+
+.arrowProjectGOContainerSM{
+  background-color: darkred;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 0;
+  padding: 0 0 ;
+}
+
+.arrowProjectGOContainerSM:hover{
   scale: 1.1;
   box-shadow: 0 0 10px darkred;
 }
