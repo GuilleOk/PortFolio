@@ -70,11 +70,11 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
                   <div key={`${name}${tech}`} >
                     <div className="d-none d-lg-flex align-items-center mx-5 gap-2 technologys">
                       <img src={techPhoto} alt={tech} style={{ height: '2rem'}} className="d-none d-lg-inline" />
-                      <spam className='d-none d-lg-inline'>{tech}</spam>
+                      <div className='d-none d-lg-inline'>{tech}</div>
                     </div>
                     <div className="d-flex mx-2 align-items-center technologysSM d-lg-none">
                       <img src={techPhoto} alt={tech} style={{ height: '1rem'}} className="d-inline d-lg-none" />
-                      <spam style={{fontSize: '.72rem', fontWeight: 'bold', padding: '0'}} className='d-inline d-lg-none'>{tech}</spam>
+                      <div style={{fontSize: '.72rem', fontWeight: 'bold', padding: '0'}} className='d-inline d-lg-none'>{tech}</div>
                     </div>
                   </div>
                 )
