@@ -2,7 +2,7 @@
 const ProjectToShow = ({name, technologys, description, image, url, urlCode}) => {
   return (
     <div className="d-flex justify-content-center">
-      <div className="d-lg-flex flex-column justify-content-center projectToShow my-3">
+      <div className="d-none d-lg-flex flex-column justify-content-center projectToShow my-3">
           <div className="col-12">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex justify-content-start align-items-center gap-3">
