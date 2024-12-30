@@ -44,8 +44,8 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
             </div>
           </div>
       </div>
-      <div className="d-flex d-lg-none flex-column justify-content-center projectToShowSM my-5">
-          <div className="col-12 mx-3">
+      <div className="d-flex d-lg-none flex-column justify-content-center projectToShowSM my-4">
+          <div className="col-12 mx-auto p-2">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex justify-content-between align-items-center">
                <div>
