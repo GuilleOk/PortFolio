@@ -10,7 +10,7 @@ const MainPage = () => {
         </div>
         <div className='d-flex nameHeaderContainer d-lg-none mt-4'>
           {/* <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '1.5rem'}} /> */}
-          <h1 style={{ textAlign: 'center', fontFamily: 'arial-narrow',fontSize: '2.4rem', marginBottom: 0, display: 'inline', color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
+          <h1 style={{ textAlign: 'center', fontFamily: 'Arial Narrow, Arial, sans-serif',fontSize: '2.4rem', marginBottom: 0, display: 'inline', color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <div className='d-none d-lg-flex nameHeaderContainer'>
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3rem'}} />
