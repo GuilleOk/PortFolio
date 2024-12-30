@@ -74,7 +74,7 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
                     </div>
                     <div className="d-flex mx-2 align-items-center technologysSM d-lg-none">
                       <img src={techPhoto} alt={tech} style={{ height: '1rem'}} className="d-inline d-lg-none" />
-                      <spam style={{fontSize: '.5rem'}} className='d-inline d-lg-none'>{tech}</spam>
+                      <spam style={{fontSize: '.72rem', fontWeight: 'bold', padding: '0'}} className='d-inline d-lg-none'>{tech}</spam>
                     </div>
                   </div>
                 )
