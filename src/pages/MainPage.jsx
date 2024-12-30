@@ -24,7 +24,7 @@ const MainPage = () => {
         </div>
       </header>
       <section>
-        <div className="container">
+        <div className="container mb-2">
           <div className="d-none d-lg-flex justify-content-start align-items-center gap-3 mx-5 px-5" style={{marginTop: '5rem'}}>
               <div>
                 <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '2.8rem' }} />
@@ -42,13 +42,13 @@ const MainPage = () => {
               </div>
           </div>
         </div>
-          {/* {
+          {
             projects.filter(({showInMain}) => showInMain).map(({ name, technologys, description, image, url, urlCode }) => {
               return (
                 <ProjectToShow key={`${url}`} name={name} technologys={technologys} description={description} image={image} url={url} urlCode={urlCode} />
               )
             })
-          } */}
+          }
       </section>
     </div>
   )

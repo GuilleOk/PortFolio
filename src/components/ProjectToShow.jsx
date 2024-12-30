@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
 const ProjectToShow = ({name, technologys, description, image, url, urlCode}) => {
   return (
-    <div className="my-5 d-flex justify-content-center">
-      <div className="d-flex flex-column justify-content-center projectToShow">
-        <header>
+    <div className="d-flex justify-content-center">
+      <div className="d-lg-flex flex-column justify-content-center projectToShow my-3">
           <div className="col-12">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex justify-content-start align-items-center gap-3">
@@ -44,7 +43,6 @@ const ProjectToShow = ({name, technologys, description, image, url, urlCode}) =>
               </div>
             </div>
           </div>
-        </header>
       </div>
     </div>
   )
