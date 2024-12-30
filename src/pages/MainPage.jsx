@@ -14,10 +14,10 @@ const MainPage = () => {
         </div>
         <div className='d-none d-lg-flex nameHeaderContainer'>
           <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3rem'}} />
-          <h1 style={{ textAlign: 'start', fontSize: '2.45rem', marginBottom: 0 }}>Guillermo Alfredo Fernández Martínez</h1>
+          <h1 style={{ textAlign: 'center', fontSize: '2.8rem', marginBottom: 0 }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <div className='d-block d-lg-none mx-3'>
-          <p style={{textAlign: 'center', fontSize: '.6rem'}}><span style={{color: 'rgb(159, 248, 171)'}}>Soy Ingeniero en Telecomunicaciones y Electrónica</span> graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
+          <p style={{textAlign: 'center', fontSize: '1rem'}}><span style={{color: 'rgb(159, 248, 171)'}}>Soy Ingeniero en Telecomunicaciones y Electrónica</span> graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
         </div>
         <div className='d-none d-lg-block'>
           <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
@@ -38,7 +38,7 @@ const MainPage = () => {
                 <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '1.2rem' }} />
               </div>
               <div>
-                <h2 style={{textAlign: 'center', fontSize: '1.2rem', marginBottom: 0}} className="my-0">Proyectos</h2>
+                <h2 style={{textAlign: 'center', fontSize: '1.2rem', marginBottom: 0, textShadow: '0 0 10px white'}} className="my-0 py-0">Proyectos</h2>
               </div>
           </div>
         </div>
