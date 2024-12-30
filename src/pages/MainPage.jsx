@@ -35,10 +35,10 @@ const MainPage = () => {
           </div>
           <div className="d-flex justify-content-start align-items-center gap-3 mx-3 d-lg-none" style={{marginTop: '2rem'}}>
               <div>
-                <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '1.2rem' }} />
+                <img src="images/star.svg" alt="star" style={{ filter: 'invert(100%)', height: '1.4rem' }} />
               </div>
               <div>
-                <h2 style={{textAlign: 'center', fontSize: '1.6rem', marginBottom: 0, textShadow: '0 0 10px white'}} className="my-0 py-0">Proyectos</h2>
+                <h2 style={{textAlign: 'center', fontSize: '1.8rem', marginBottom: 0, textShadow: '0 0 10px white'}} className="my-0 py-0">Proyectos</h2>
               </div>
           </div>
         </div>
