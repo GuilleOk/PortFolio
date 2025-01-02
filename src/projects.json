@@ -46,7 +46,7 @@
   },
   {
     "name": "Money Values Changer",
-    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/boostrap.png"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
+    "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS3", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/bootstrap.png"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
     "description": "En esta página se puede cambiar dinero de una moneda a otra, la taza de cambio es obtenida de una REST API.",
     "image": "images/pagePictures/Money_Values_Changer.png",
     "showInMain": false,
