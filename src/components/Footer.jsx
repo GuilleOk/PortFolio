@@ -72,7 +72,7 @@ const Footer = () => {
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
         </div>
-        <p className="text-center"><small style={{color: 'white'}}>© Todos los derechos reservados</small></p>
+        <p className="text-center mt-1"><small style={{color: 'white'}}>© Todos los derechos reservados</small></p>
       </footer>
     </div>
   )
