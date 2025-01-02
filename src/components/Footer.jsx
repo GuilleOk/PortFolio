@@ -25,15 +25,15 @@ const Footer = () => {
               CV
             </a>
           </li>
-          <li className="nav-item">
-            <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
-              <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhoto" />
-            </a>
-          </li>
           <div>
           </div>
         </ul>
-        <p className="text-center text-body-secondary mb-2">Contacto: <strong style={{marginLeft: '.5rem', borderBottom: '.1rem solid white'}}>fernandez.martinez1403@gmail.com</strong></p>
+        <div className="d-flex justify-content-center align-items-center">
+          <p className="text-center text-body-secondary mb-2">Contacto: <strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white' }}>fernandez.martinez1403@gmail.com</strong></p>
+          <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
+            <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
+          </a>
+        </div>
         <p className="text-center text-body-secondary"><small>© Todos los derechos reservados</small></p>
       </footer>
       <footer className="d-block d-lg-none pt-3 pb-1">
@@ -59,16 +59,17 @@ const Footer = () => {
               CV
             </a>
           </li>
-          <li className="nav-item">
-            <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
-              <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhoto" />
-            </a>
-          </li>
           <div>
           </div>
         </ul>
         </div>
-        <p className="text-center text-body-secondary mb-0">Contacto: <strong style={{marginLeft: '.5rem', borderBottom: '.1rem solid white'}}>fernandez.martinez1403@gmail.com</strong></p>
+        Contacto
+        <div className="d-flex justify-content-evenly align-items-center">
+          <p className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white' }}>fernandez.martinez1403@gmail.com</strong></p>
+          <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
+            <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
+          </a>
+        </div>
         <p className="text-center text-body-secondary"><small>© Todos los derechos reservados</small></p>
       </footer>
     </div>
