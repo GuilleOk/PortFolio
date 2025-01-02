@@ -67,7 +67,7 @@ const Footer = () => {
           <div style={{color: 'white', fontSize: '.7rem', textAlign: 'center'}}>
             Contacto
           </div>
-          <p className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', fontSize: '1rem' }}>fernandez.martinez1403@gmail.com</strong></p>
+          <p className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', fontSize: '.7rem' }}>fernandez.martinez1403@gmail.com</strong></p>
           <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
