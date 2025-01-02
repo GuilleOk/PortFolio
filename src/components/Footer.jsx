@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 
 const Footer = () => {
   return (
-    <div style={{ background: 'rgb(2, 48, 21)' }}>
+    <div style={{ background: 'rgb(2, 48, 21)' }} className='footer'>
       <footer className="d-none d-lg-block pt-3 pb-1">
         <ul className="nav justify-content-center gap-4 align-items-center pb-2 mx-5">
           <li className="nav-item">
