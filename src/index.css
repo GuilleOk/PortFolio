@@ -198,6 +198,10 @@ body{
   margin-left: 6rem;
 }
 
+.studyContainerSM{
+  margin-left: 2rem;
+}
+
 .form-check-input:checked {
   background-color: rgb(2, 48, 21);
   border-color: white;
