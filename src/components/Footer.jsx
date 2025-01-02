@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div style={{ background: 'rgb(2, 48, 21)' }}>
       <footer className="d-none d-lg-block pt-3 pb-1">
-        <ul className="nav justify-content-center gap-4 align-items-center pb-2 mx-5">
+        <ul className="nav justify-content-center gap-3 align-items-center pb-2 mx-5">
           <li className="nav-item">
             <NavLink to="/projects" className="nav-link px-2 textNavbar">
               Mis Proyectos
@@ -37,7 +37,8 @@ const Footer = () => {
         <p className="text-center text-body-secondary"><small>© Todos los derechos reservados</small></p>
       </footer>
       <footer className="d-block d-lg-none pt-3 pb-1">
-        <ul className="nav justify-content-center gap-2 align-items-center pb-2 mx-5">
+        <div className='pb-2'>
+        <ul className="nav justify-content-center gap-1 align-items-center mx-5">
           <li className="nav-item">
             <NavLink to="/projects" className="nav-link px-2 textNavbarSM">
               Mis Proyectos
@@ -66,6 +67,7 @@ const Footer = () => {
           <div>
           </div>
         </ul>
+        </div>
         <p className="text-center text-body-secondary mb-0">Contacto: <strong style={{marginLeft: '.5rem', borderBottom: '.1rem solid white'}}>fernandez.martinez1403@gmail.com</strong></p>
         <p className="text-center text-body-secondary"><small>© Todos los derechos reservados</small></p>
       </footer>
