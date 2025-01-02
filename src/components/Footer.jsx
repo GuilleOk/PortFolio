@@ -38,7 +38,7 @@ const Footer = () => {
       </footer>
       <footer className="d-block d-lg-none pt-3 pb-1">
         <div className='pb-2'>
-        <ul className="nav justify-content-center gap-1 align-items-center mx-5">
+        <ul className="nav justify-content-center gap-1 align-items-center mx-2">
           <li className="nav-item">
             <NavLink to="/projects" className="nav-link px-2 textNavbarSM">
               Mis Proyectos
