@@ -10,5 +10,11 @@
     "name": "profesional en desarrollo fullstack y pentesting web",
     "finished": false,
     "academyInstitution": "Grupo educativo MasterD"
+  },
+  {
+    "type": "Curso",
+    "name": "Aprendiendo React",
+    "finished": false,
+    "academyInstitution": "Midudev"
   }
 ]
