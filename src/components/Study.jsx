@@ -26,7 +26,7 @@ const Study = ({type, name, finished, academyInstitution}) => {
           <img src="images/arrow.png" alt="arrow" style={{ filter: 'invert(100%)', height: '1rem' }} />
         </div>
         <div>
-          <h2 style={{ textAlign: 'center', fontSize: '1.2rem', color: 'rgb(159, 248, 171)' }} className="my-0">
+          <h2 style={{ textAlign: 'initial', fontSize: '1.2rem', color: 'rgb(159, 248, 171)' }} className="my-0">
             {type} {name}
           </h2>
         </div>
