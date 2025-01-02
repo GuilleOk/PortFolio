@@ -21,7 +21,7 @@ const Study = ({type, name, finished, academyInstitution}) => {
           </label>            
         </div> 
       </div>
-      <div className="d-flex d-lg-none studyContainerSM align-items-center mb-1">
+      <div className="d-flex d-lg-none studyContainerSM align-items-baseline mb-1">
         <div>
           <img src="images/arrow.png" alt="arrow" style={{ filter: 'invert(100%)', height: '1rem' }} />
         </div>
