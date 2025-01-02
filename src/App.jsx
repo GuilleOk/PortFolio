@@ -19,7 +19,7 @@ function App() {
           <Route path='/my_learning_path' element={<LearningPath />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   )
 }

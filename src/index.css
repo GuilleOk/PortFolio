@@ -2,8 +2,6 @@ html{
   min-height: 100vh;
   color: white;
   background-color: rgb(2, 32, 15);
-  /* font-family: 'Arial Narrow'; */
-  /* overflow-x: ; */
 }
 
 .errorLabel{
@@ -177,4 +175,9 @@ html{
 .arrowProjectGOContainerSM:hover{
   scale: 1.1;
   box-shadow: 0 0 10px darkred;
+}
+
+.text-body-secondary{
+  color: white !important;
+  font-size: 1rem !important;
 }
