@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Ingeniería",
+    "name": "en Telecomunicaciones y Electrónica",
+    "finished": true,
+    "academyInstitution": "Universidad de Oriente de Cuba"
+  },
+  {
+    "type": "Maestría",
+    "name": "profesional en desarrollo fullstack y pentesting web",
+    "finished": false,
+    "academyInstitution": "Grupo educativo MasterD"
+  }
+]

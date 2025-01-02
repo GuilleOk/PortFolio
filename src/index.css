@@ -193,3 +193,12 @@ body{
   bottom: 0;
   width: 100%;
 }
+
+.studyContainer{
+  margin-left: 6rem;
+}
+
+.form-check-input:checked {
+  background-color: rgb(2, 48, 21);
+  border-color: white;
+}
