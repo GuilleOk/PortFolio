@@ -5,8 +5,8 @@
     "description": "Es el Front-End de una tienda online, que se alimenta de una REST API, desarrollado con React.js, CSS3, Javascript y React Router Dom.",
     "image": "images/pagePictures/Click & Chic.png",
     "showInMain": true,
-    "url": "https://github.com/GuilleOk/PortFolio/blob/master/src/projects/Simple_E-Commers/index.html",
-    "urlCode": "....."
+    "url": "https://clic-chic.vercel.app/",
+    "urlCode": "https://github.com/GuilleOk/02-CartShopReactRouter/tree/main"
   },
   {
     "name": "AllNews",
@@ -15,7 +15,7 @@
     "image": "images/pagePictures/AllNews.png",
     "showInMain": true,
     "url": "https://feed-de-noticias-rho.vercel.app/",
-    "urlCode": "....."
+    "urlCode": "https://github.com/GuilleOk/newsFeed"
   },
   {
     "name": "Dynamic Gallery",
@@ -24,7 +24,7 @@
     "image": "images/pagePictures/Dynamic_Gallery.png",
     "showInMain": true,
     "url": "https://galeria-dinamica-nine.vercel.app/",
-    "urlCode": "....."
+    "urlCode": "https://github.com/GuilleOk/dynamicGallery/tree/develop"
   },
   {
     "name": "Questions Game",
@@ -33,7 +33,7 @@
     "image": "images/pagePictures/Questions_Game.png",
     "showInMain": true,
     "url": "https://questions-game-nine.vercel.app/",
-    "urlCode": "....."
+    "urlCode": "https://github.com/GuilleOk/quetionsGame"
   },
   {
     "name": "Sky's Products",
@@ -42,7 +42,7 @@
     "image": "images/pagePictures/Skys_Products.png",
     "showInMain": false,
     "url": "https://skys-products.vercel.app/",
-    "urlCode": "....."
+    "urlCode": "https://github.com/GuilleOk/fakeShop"
   },
   {
     "name": "Money Values Changer",
@@ -51,6 +51,6 @@
     "image": "images/pagePictures/Money_Values_Changer.png",
     "showInMain": false,
     "url": "https://money-changer-murex.vercel.app/",
-    "urlCode": "....."
+    "urlCode": "https://github.com/GuilleOk/moneyChange/tree/developer"
   }
 ]
