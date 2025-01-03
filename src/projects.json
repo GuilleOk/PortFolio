@@ -23,7 +23,7 @@
     "description": "Galería dinámica alimentada por las búsquedas del usuario, dichas búsquedas se alimentan de una REST API.",
     "image": "images/pagePictures/Dynamic_Gallery.png",
     "showInMain": true,
-    "url": "/projects/Dynamic_Gallery/index.html",
+    "url": "https://galeria-dinamica-nine.vercel.app/",
     "urlCode": "....."
   },
   {
@@ -32,7 +32,7 @@
     "description": "Un juego de dos jugadores en el que cada uno tiene que responder 5 preguntas, 1 por cada turno, y al final gana el que más respuestas correctas tenga.",
     "image": "images/pagePictures/Questions_Game.png",
     "showInMain": true,
-    "url": "/projects/Questions_Game/index.html",
+    "url": "https://questions-game-nine.vercel.app/",
     "urlCode": "....."
   },
   {
@@ -41,7 +41,7 @@
     "description": "Es el Front-End de un carrito una tienda online, que se alimenta de una REST API, desarrollado con React.JS y CSS3.",
     "image": "images/pagePictures/Skys_Products.png",
     "showInMain": false,
-    "url": "/projects/Skys_Products",
+    "url": "https://skys-products.vercel.app/",
     "urlCode": "....."
   },
   {
@@ -50,7 +50,7 @@
     "description": "En esta página se puede cambiar dinero de una moneda a otra, la taza de cambio es obtenida de una REST API.",
     "image": "images/pagePictures/Money_Values_Changer.png",
     "showInMain": false,
-    "url": "/projects/Money_changer/index.html",
+    "url": "https://money-changer-murex.vercel.app/",
     "urlCode": "....."
   }
 ]
