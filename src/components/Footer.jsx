@@ -40,22 +40,22 @@ const Footer = () => {
         <div className='pb-2'>
         <ul className="nav justify-content-center gap-3 align-items-center mx-2">
           <li className="nav-item">
-              <NavLink to="/projects" className={({ isActive }) => isActive ? "nav-link px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
+              <NavLink to="/projects" className={({ isActive }) => isActive ? "px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
               Mis Proyectos
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/my_learning_path" className={({ isActive }) => isActive ? "nav-link px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
+            <NavLink to="/my_learning_path" className={({ isActive }) => isActive ? "px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
               Mis Estudios
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" className={({ isActive }) => isActive ? "nav-link px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
+            <NavLink to="/about" className={({ isActive }) => isActive ? "px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
               Acerca de mí
             </NavLink>
           </li>
           <li className="nav-item">
-            <a href="CV_Guillermo_lfredo_Fernandez_Martinez_26-12-2024.pdf" rel='noreferrer' target="_blank" download className="px-2 textNavbarSM">
+            <a href="CV_Guillermo_lfredo_Fernandez_Martinez_26-12-2024.pdf" rel='noreferrer' target="_blank" download className="nav-link px-2 textNavbarSM">
               CV
             </a>
           </li>
