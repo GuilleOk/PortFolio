@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <div>
           <p style={{ textAlign: 'justify', fontSize: '1rem', color: 'white' }} className="my-0">
-            Desarrollo Font-End: Experiencia en HTML5, CSS3 y JavaScript, así como en la creación de SPAs utilizando React.js y React Router Dom. He implementado hooks como useState y useEffect para mejorar la funcionalidad de mis aplicaciones, además de la creación de mis propios customhooks y de la utilización de otros, como son: useRef, useReducer y useContext. En ocasiones, para lograr un diseño responsivo, he utilizado Bootstrap debido a las facilidades que ofrece para el desarrollo Font-End.
+            Desarrollo Front-End: Experiencia en HTML5, CSS3 y JavaScript, así como en la creación de SPAs utilizando React.js y React Router Dom. He implementado hooks como useState y useEffect para mejorar la funcionalidad de mis aplicaciones, además de la creación de mis propios customhooks y de la utilización de otros, como son: useRef, useReducer y useContext. En ocasiones, para lograr un diseño responsivo, he utilizado Bootstrap debido a las facilidades que ofrece para el desarrollo Front-End.
           </p>
         </div>
       </div>
@@ -62,7 +62,7 @@ const About = () => {
           </div>
           <div>
             <p style={{ textAlign: 'justify', fontSize: '.8rem', color: 'white' }} className="my-0">
-              Desarrollo Font-End: Experiencia en HTML5, CSS3 y JavaScript, así como en la creación de SPAs utilizando React.js y React Router Dom. He implementado hooks como useState y useEffect para mejorar la funcionalidad de mis aplicaciones, además de la creación de mis propios customhooks y de la utilización de otros, como son: useRef, useReducer y useContext. En ocasiones, para lograr un diseño responsivo, he utilizado Bootstrap debido a las facilidades que ofrece para el desarrollo Font-End.
+              Desarrollo Front-End: Experiencia en HTML5, CSS3 y JavaScript, así como en la creación de SPAs utilizando React.js y React Router Dom. He implementado hooks como useState y useEffect para mejorar la funcionalidad de mis aplicaciones, además de la creación de mis propios customhooks y de la utilización de otros, como son: useRef, useReducer y useContext. En ocasiones, para lograr un diseño responsivo, he utilizado Bootstrap debido a las facilidades que ofrece para el desarrollo Front-End.
             </p>
           </div>
         </div>
