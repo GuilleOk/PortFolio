@@ -55,7 +55,7 @@ const Footer = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <a href="CV_Guillermo_lfredo_Fernandez_Martinez_26-12-2024.pdf" rel='noreferrer' target="_blank" download className="nav-link px-2 textNavbarSM">
+            <a href="CV_Guillermo_lfredo_Fernandez_Martinez_26-12-2024.pdf" rel='noreferrer' target="_blank" download className="px-2 textNavbarSM">
               CV
             </a>
           </li>
