@@ -3,7 +3,7 @@
     "name": "Click & Chic",
     "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/bootstrap.png"}, {"tech": "React Router", "techPhoto": "images/technologys/react-router.svg"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
     "description": "Es el Front-End de una tienda online, que se alimenta de una REST API, desarrollado con React.js, CSS, Javascript y React Router Dom.",
-    "image": "images/pagePictures/Click & ChicOk.png",
+    "image": "images/pagePictures/Click & ChicOK.png",
     "showInMain": true,
     "url": "https://clic-and-chic-store.vercel.app/",
     "urlCode": "https://github.com/GuilleOk/Clic_and_Chic_store"
