@@ -2,7 +2,7 @@
   {
     "name": "Click & Chic",
     "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/bootstrap.png"}, {"tech": "React Router", "techPhoto": "images/technologys/react-router.svg"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
-    "description": "Es el Front-End de una tienda online con diseño responsivo, que se alimenta de una REST API, desarrollado con React.js, CSS, Javascript y React Router Dom.",
+    "description": "En este proyecto, he desarrollado el Front-End de una tienda online moderna y responsiva, diseñada para ofrecer una experiencia de usuario fluida y atractiva. Utilizando tecnologías web actuales, la tienda se alimenta de una REST API que permite la gestión dinámica de productos y la interacción con el carrito de compras.",
     "image": "images/pagePictures/Click & ChicOK.png",
     "showInMain": true,
     "url": "https://clic-and-chic-store.vercel.app/",
@@ -11,7 +11,7 @@
   {
     "name": "AllNews",
     "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS", "techPhoto": "images/technologys/css.svg"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
-    "description": "Es un feed de noticias, el cual posee varios temas, que se puede personalizar en dependencia de las preferencias del usuario",
+    "description": "Feed de Noticias interactivo que permite a los usuarios acceder a contenido relevante sobre una variedad de temas. Utilizando una REST API, la aplicación recopila y presenta noticias actualizadas, brindando a los usuarios la posibilidad de personalizar su experiencia al seleccionar un tema específico para realizar búsquedas relacionadas.",
     "image": "images/pagePictures/AllNews.png",
     "showInMain": true,
     "url": "https://feed-de-noticias-rho.vercel.app/",
@@ -20,7 +20,7 @@
   {
     "name": "Dynamic Gallery",
     "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/bootstrap.png"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
-    "description": "Galería dinámica alimentada por las búsquedas del usuario, dichas búsquedas se alimentan de una REST API.",
+    "description": "Galería Dinámica que permite a los usuarios explorar y descubrir imágenes de manera interactiva. La aplicación se alimenta de una REST API, lo que facilita la búsqueda de imágenes según las preferencias del usuario. Al escribir una categoría y un término específico, los usuarios pueden acceder a una variedad de imágenes relevantes que se ajustan a su búsqueda.",
     "image": "images/pagePictures/Dynamic_Gallery.png",
     "showInMain": true,
     "url": "https://galeria-dinamica-nine.vercel.app/",
@@ -29,7 +29,7 @@
   {
     "name": "Questions Game",
     "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS", "techPhoto": "images/technologys/css.svg"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
-    "description": "Un juego de dos jugadores en el que cada uno tiene que responder 5 preguntas, 1 por cada turno, y al final gana el que más respuestas correctas tenga.",
+    "description": "Emocionante juego de preguntas diseñado para dos jugadores, donde la competencia y el conocimiento se combinan para ofrecer una experiencia divertida e interactiva. Cada jugador debe responder a cinco preguntas, una en cada turno, y el ganador es aquel que acumule más respuestas correctas. La aplicación se alimenta de una REST API que proporciona preguntas variadas y permite evaluar las respuestas de los jugadores en tiempo real, asegurando una experiencia dinámica y entretenida.",
     "image": "images/pagePictures/Questions_Game.png",
     "showInMain": true,
     "url": "https://questions-game-nine.vercel.app/",
@@ -38,7 +38,7 @@
   {
     "name": "Sky's Products",
     "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS", "techPhoto": "images/technologys/css.svg"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
-    "description": "Es el Front-End de un carrito de una tienda online, que se alimenta de una REST API, desarrollado con React.JS y CSS.",
+    "description": "En este proyecto, he desarrollado el Front-End de un carrito de compras para una tienda online, diseñado para ofrecer a los usuarios una experiencia de compra fluida y eficiente. La aplicación se alimenta de una REST API que permite gestionar productos.",
     "image": "images/pagePictures/Skys_Products.png",
     "showInMain": false,
     "url": "https://skys-products.vercel.app/",
@@ -47,7 +47,7 @@
   {
     "name": "Money Values Changer",
     "technologys": [{"tech": "React.js", "techPhoto": "images/technologys/react.png"}, {"tech": "CSS", "techPhoto": "images/technologys/css.svg"}, {"tech": "Bootstrap", "techPhoto": "images/technologys/bootstrap.png"}, {"tech": "JS", "techPhoto": "images/technologys/js.png"}, {"tech": "REST API", "techPhoto": "images/technologys/api.png"}],
-    "description": "En esta página se puede realizar conversiones de moneda, la tasa de cambio es obtenida de una REST API.",
+    "description": "En esta página, los usuarios pueden realizar conversiones de moneda de manera sencilla y eficiente, gracias a la utilización de la información aportada por una REST API, gracias a una interfaz intuitiva y fácil de usar.",
     "image": "images/pagePictures/Money_Values_Changer.png",
     "showInMain": false,
     "url": "https://money-changer-murex.vercel.app/",
