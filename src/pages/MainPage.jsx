@@ -16,7 +16,7 @@ const MainPage = () => {
           <h1 style={{ textAlign: 'justify', fontSize: '4rem', marginBottom: 0, color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <div className='d-block d-lg-none mx-3'>
-          <p style={{textAlign: 'justify', fontSize: '1rem'}}>Soy Ingeniero en Telecomunicaciones y Electrónica, graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
+          <p style={{fontSize: '1rem'}}>Soy Ingeniero en Telecomunicaciones y Electrónica, graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo de aplicaciones web.</p>
         </div>
         <div className='d-none d-lg-block'>
           <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica, graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>
