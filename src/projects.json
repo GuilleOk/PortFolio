@@ -14,7 +14,7 @@
     "description": "Feed de Noticias interactivo que permite a los usuarios acceder a contenido relevante sobre una variedad de temas. Utilizando una REST API, la aplicación recopila y presenta noticias actualizadas, brindando a los usuarios la posibilidad de personalizar su experiencia al seleccionar un tema específico para realizar búsquedas relacionadas.",
     "image": "images/pagePictures/AllNews.png",
     "showInMain": true,
-    "url": "https://feed-de-noticias-blue.vercel.app/",
+    "url": "https://feed-de-noticias-ten.vercel.app/",
     "urlCode": "https://github.com/GuilleOk/newsFeed"
   },
   {
