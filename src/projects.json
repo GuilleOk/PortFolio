@@ -5,8 +5,8 @@
     "description": "En este proyecto, he desarrollado el Front-End de una tienda online moderna y responsiva, diseñada para ofrecer una experiencia de usuario fluida y atractiva. Utilizando tecnologías web actuales, la tienda se alimenta de una REST API que permite la gestión dinámica de productos y la interacción con el carrito de compras. Es importante conocer que para acceder al módulo de pago, primero el usuario debe estar autenticado, de modo que si desea probar esta funcionalidad puede hacerlo usando el correo de prueba anaxxxxx@gmail.com y la contraseña 1234.",
     "image": "images/pagePictures/Click & ChicOK.png",
     "showInMain": true,
-    "url": "https://clic-and-chic-store.vercel.app/",
-    "urlCode": "https://github.com/GuilleOk/Clic_and_Chic_store"
+    "url": "https://clic-and-chic.vercel.app/",
+    "urlCode": "https://github.com/GuilleOk/Clic_and_chic_develop"
   },
   {
     "name": "AllNews",
