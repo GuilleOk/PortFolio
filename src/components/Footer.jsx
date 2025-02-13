@@ -21,7 +21,7 @@ const Footer = () => {
             </NavLink>
           </li>
           <li className="nav-item item">
-            <a href="CV_Guillermo_Alfredo_Fernandez_Martinez_13-02-2025.pdf" rel='noreferrer' target="_blank" download className="nav-link px-2 textNavbar">
+            <a href="CV_Guillermo_A_Fernandez_Martinez_13-02-2025.pdf" rel='noreferrer' target="_blank" download className="nav-link px-2 textNavbar">
               CV
             </a>
           </li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </ul>
         <div className="d-flex justify-content-center align-items-center">
-          <a href="https://mail.google.com/mail/u/0/?view=cm&to=guillermoafernandezmartinez@gmail.com" target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-2">Contacto: <strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white' }}>guillermoafernandezmartinez@gmail.com</strong></a>
+          <p target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-2">Contacto: <strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white' }}>guillermoafernandezmartinez@gmail.com</strong></p>
           <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
@@ -55,7 +55,7 @@ const Footer = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <a href="CV_Guillermo_Alfredo_Fernandez_Martinez_13-02-2025.pdf" rel='noreferrer' target="_blank" download className="px-2 textNavbarSM">
+            <a href="CV_Guillermo_A_Fernandez_Martinez_13-02-2025.pdf" rel='noreferrer' target="_blank" download className="px-2 textNavbarSM">
               CV
             </a>
           </li>
@@ -67,7 +67,7 @@ const Footer = () => {
           <div style={{color: 'white', fontSize: '.8rem', textAlign: 'center'}}>
             Contacto:
           </div>
-          <a href="https://mail.google.com/mail/u/0/?view=cm&to=guillermoafernandezmartinez@gmail.com" target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', fontSize: '.8rem' }}>guillermoafernandezmartinez@gmail.com</strong></a>
+          <p target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', fontSize: '.8rem' }}>guillermoafernandezmartinez@gmail.com</strong></p>
           <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
