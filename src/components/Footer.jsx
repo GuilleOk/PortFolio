@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </ul>
         <div className="d-flex justify-content-center align-items-center">
-          <a href="https://gmail.google.com/mail/u/0/?view=cm&to=guillermoafernandezmartinez@gmail.com" target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-2">Contacto: <strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white' }}>guillermoafernandezmartinez@gmail.com</strong></a>
+          <a href="https://mail.google.com/mail/u/0/?view=cm&to=guillermoafernandezmartinez@gmail.com" target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-2">Contacto: <strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white' }}>guillermoafernandezmartinez@gmail.com</strong></a>
           <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
@@ -65,9 +65,9 @@ const Footer = () => {
         </div>
         <div className="d-flex justify-content-evenly align-items-center">
           <div style={{color: 'white', fontSize: '.8rem', textAlign: 'center'}}>
-            Contacto
+            Contacto:
           </div>
-          <a href="https://gmail.google.com/mail/u/0/?view=cm&to=guillermoafernandezmartinez@gmail.com" target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', fontSize: '.8rem' }}>guillermoafernandezmartinez@gmail.com</strong></a>
+          <a href="https://mail.google.com/mail/u/0/?view=cm&to=guillermoafernandezmartinez@gmail.com" target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', fontSize: '.8rem' }}>guillermoafernandezmartinez@gmail.com</strong></a>
           <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
