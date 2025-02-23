@@ -3,7 +3,7 @@ import studies from '../studies.json'
 
 const LearningPath = () => {
   return (
-    <div style={{ marginTop: '5rem', background: 'rgb(2, 32, 15)', color: 'white' }}>
+    <div style={{ marginTop: '5rem', background: 'inherit', color: 'white' }}>
       <div className="container mb-2">
           <div className="d-none d-lg-flex justify-content-start align-items-center mx-5 px-5" style={{marginTop: '3rem'}}>
               <div>

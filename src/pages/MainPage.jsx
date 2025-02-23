@@ -3,16 +3,14 @@ import projects from '../projects.json'
 
 const MainPage = () => {
   return (
-    <div style={{ marginTop: '7rem', background: 'rgb(2, 32, 15)', color: 'white' }}>
+    <div style={{ marginTop: '7rem', background: 'inherit', color: 'white' }}>
       <header>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-          <img src="images/portfolioImage1.jpg" alt="Guillermo Fernandez" className='photoMain mx-auto' />
+        <div className='photoMainContainer'>
+          <div className='photoSecondContainer'>
+            <img src="images/portfolioImage1.jpg" alt="Guillermo Fernandez" className='photoMain mx-auto' />
+          </div>
         </div>
-        <div className='d-flex nameHeaderContainer d-lg-none mt-4'>
-          <h1 style={{ textAlign: 'center', fontFamily: 'Arial Narrow',fontSize: '2.2rem', marginBottom: '1rem', display: 'inline', color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
-        </div>
-        <div className='d-none d-lg-flex nameHeaderContainer'>
-          {/* <img src="images/technologys/codigo.png" alt="tag" style={{filter: 'invert(100%)', height: '3rem'}} /> */}
+        <div className='d-flex nameHeaderContainer'>
           <h1 style={{ textAlign: 'justify', fontSize: '4rem', marginBottom: 0, color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <div className='d-block d-lg-none mx-3'>

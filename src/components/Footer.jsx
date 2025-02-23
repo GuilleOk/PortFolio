@@ -2,77 +2,50 @@ import { NavLink } from "react-router-dom"
 
 const Footer = () => {
   return (
-    <div style={{ background: 'rgb(2, 48, 21)' }} className='footer'>
-      <footer className="d-none d-lg-block pt-3 pb-1">
-        <ul className="navbar justify-content-center gap-4 align-items-center pb-2 mx-5">
+    <div className='footer'>
+      <footer className="d-block pt-3 pb-1">
+        <ul className="navbar justify-content-center align-items-center mx-5">
           <li className="nav-item item">
-            <NavLink to="/projects" className={({isActive}) => isActive ? "nav-link px-2 activeLink": "nav-link px-2 textNavbar"}>
+            <NavLink to="/projects" className={({isActive}) => isActive ? "nav-link linksFooter activeLink": "nav-link linksFooter textFooter"}>
               Mis Proyectos
             </NavLink>
           </li>
           <li className="nav-item item">
-            <NavLink to="/my_learning_path" className={({isActive}) => isActive ? "nav-link px-2 activeLink": "nav-link px-2 textNavbar"}>
+            <NavLink to="/my_learning_path" className={({isActive}) => isActive ? "nav-link linksFooter activeLink": "nav-link linksFooter textFooter"}>
               Mis Estudios
             </NavLink>
           </li>
           <li className="nav-item item">
-            <NavLink to="/about" className={({isActive}) => isActive ? "nav-link px-2 activeLink": "nav-link px-2 textNavbar"}>
+            <NavLink to="/about" className={({isActive}) => isActive ? "nav-link linksFooter activeLink": "nav-link linksFooter textFooter"}>
               Acerca de mí
             </NavLink>
           </li>
           <li className="nav-item item">
-            <a href="CV_Guillermo_A_Fernandez_Martinez_13-02-2025.pdf" rel='noreferrer' target="_blank" download className="nav-link px-2 textNavbar">
+            <a href="CV_Guillermo_A_Fernandez_Martinez_13-02-2025.pdf" rel='noreferrer' target="_blank" download className="nav-link px-2 textFooter">
               CV
             </a>
+          </li>
+          <li className="nav-item item">
+          <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2">
+            <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
+          </a>
           </li>
           <div>
           </div>
         </ul>
-        <div className="d-flex justify-content-center align-items-center">
-          <p target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-2">Contacto: <strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white' }}>guillermoafernandezmartinez@gmail.com</strong></p>
-          <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
+
+        {/* <div className="secondFooterContainer">
+          <div className="lastFooterContainer text-body-footer" >
+          <div><spam>E-mail: </spam><spam style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', textAlign: 'center' }}>guillermoafernandezmartinez@gmail.com</spam></div>
+          <div className="d-flex justify-content-between align-items-center">
+          <div><spam>Teléfono: </spam><spam style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', textAlign: 'center' }}>+34633884767</spam></div>
+          <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2">
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
-        </div>
-        <p className="text-center text-body-secondary"><small>© Todos los derechos reservados</small></p>
-      </footer>
-      <footer className="d-block d-lg-none pt-3 pb-1">
-        <div className='pb-2'>
-        <ul className="nav justify-content-center gap-3 align-items-center mx-2">
-          <li className="nav-item">
-              <NavLink to="/projects" className={({ isActive }) => isActive ? "px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
-              Mis Proyectos
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/my_learning_path" className={({ isActive }) => isActive ? "px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
-              Mis Estudios
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/about" className={({ isActive }) => isActive ? "px-2 activeLink" : "nav-link px-2 textNavbarSM"}>
-              Acerca de mí
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <a href="CV_Guillermo_A_Fernandez_Martinez_13-02-2025.pdf" rel='noreferrer' target="_blank" download className="px-2 textNavbarSM">
-              CV
-            </a>
-          </li>
-          <div>
           </div>
-        </ul>
-        </div>
-        <div className="d-flex justify-content-evenly align-items-center">
-          <div style={{color: 'white', fontSize: '.8rem', textAlign: 'center'}}>
-            Contacto:
           </div>
-          <p target="_blank" style={{textDecoration: 'none'}} className="text-center text-body-secondary mb-0"><strong style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', fontSize: '.8rem' }}>guillermoafernandezmartinez@gmail.com</strong></p>
-          <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2 text-body-secondary">
-            <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
-          </a>
-        </div>
-        <p className="text-center mt-1"><small style={{color: 'white'}}>© Todos los derechos reservados</small></p>
+        </div> */}
+        <p className="text-center text-body-footer"><small>© Todos los derechos reservados</small></p>
       </footer>
     </div>
   )

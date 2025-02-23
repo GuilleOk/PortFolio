@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div style={{ background: 'rgb(2, 32, 15)', color: 'white' }}>
+    <div style={{ background: 'inherit', color: 'white' }}>
       <div className="d-none d-lg-block" style={{margin: '0 5rem', marginTop: '7rem'}}>
       <p style={{fontSize: '1.5rem', textAlign: 'justify', color: 'rgb(159, 248, 171)'}}>
       Soy Ingeniero en Telecomunicaciones y Electrónica, graduado de la Universidad de Oriente de Cuba, apasionado por la tecnología y el desarrollo web. Actualmente, estoy cursando una Maestría en Desarrollo Fullstack y Pentesting Web ofrecida por el grupo educativo MasterD. Me entusiasman los retos, el trabajo en equipo y el aprendizaje continuo.
