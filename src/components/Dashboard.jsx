@@ -32,7 +32,7 @@ const Dashboard = () => {
               <NavLink to="/about" className={({isActive})=> isActive ? 'nav-link activeLink': 'nav-link textNavbar'}>Acerca de mí</NavLink>
             </li>
             <li className="nav-item item">
-              <a href="CVGuillermoAlfredoFernandezMartinez.pdf" rel='noreferrer' target="_blank" download className='nav-link textNavbar'>CV</a>
+              <a href="/CVGuillermoAlfredoFernandezMartinez25-02-2025.pdf" rel='noreferrer' target="_blank" download className='nav-link textNavbar'>CV</a>
             </li>
             <li className="nav-item item mx-lg-2">
               <div style={{padding: '.5rem 0', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
