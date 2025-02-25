@@ -3,7 +3,7 @@ import projects from '../projects.json'
 
 const MainPage = () => {
   return (
-    <div style={{ marginTop: '8.5rem', background: 'inherit', color: 'white' }}>
+    <div style={{ marginTop: '8.5rem', background: 'inherit', color: 'white' }} className='tracking-in-expand-forward-top'>
       <header>
         <div className='photoMainContainer'>
           <div className='photoSecondContainer'>

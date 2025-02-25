@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Study = ({type, name, finished, academyInstitution}) => {
   return (
-    <div className="my-4">
+    <div className="tracking-in-expand my-4">
       <div className="d-flex studyContainer mb-1">
         <div>
           <img src="images/arrow.png" alt="arrow" className="arrowStudies" />

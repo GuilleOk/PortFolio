@@ -3,7 +3,7 @@ import projects from '../projects.json'
 
 const Projects = () => {
   return (
-    <div style={{ marginTop: '8.5rem', background: 'inherit', color: 'white' }}>
+    <div style={{ marginTop: '8.5rem', background: 'inherit', color: 'white' }} className="tracking-in-expand-forward-top">
       <div className="container mb-2">
           <div className="d-none d-lg-flex justify-content-start align-items-center mx-5 px-5" style={{marginTop: '3rem'}}>
               <div>
