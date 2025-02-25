@@ -37,7 +37,6 @@ const Dashboard = () => {
             <li className="nav-item item mx-lg-2">
               <div style={{padding: '.5rem 0', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank"><img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhoto" /></a>
-                {/* <li><a href="www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a"><img src="" alt="linkedin" /></a></li> */}
               </div>
             </li>
           </ul>

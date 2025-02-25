@@ -3,7 +3,7 @@ import projects from '../projects.json'
 
 const MainPage = () => {
   return (
-    <div style={{ marginTop: '7rem', background: 'inherit', color: 'white' }}>
+    <div style={{ marginTop: '8.5rem', background: 'inherit', color: 'white' }}>
       <header>
         <div className='photoMainContainer'>
           <div className='photoSecondContainer'>
@@ -11,10 +11,10 @@ const MainPage = () => {
           </div>
         </div>
         <div className='d-flex nameHeaderContainer'>
-          <h1 style={{ textAlign: 'justify', fontSize: '4rem', marginBottom: 0, color: 'rgb(159, 248, 171)' }}>Guillermo Alfredo Fernández Martínez</h1>
+          <h1 className='NameMainPage'>Guillermo Alfredo Fernández Martínez</h1>
         </div>
         <div className='d-block d-lg-none mx-3'>
-          <p style={{textAlign: 'justify', fontSize: '.8rem'}}>Soy Ingeniero en Telecomunicaciones y Electrónica, graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo de aplicaciones web.</p>
+          <p style={{textAlign: 'center', fontSize: '.8rem'}}>Soy Ingeniero en Telecomunicaciones y Electrónica, graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo de aplicaciones web.</p>
         </div>
         <div className='d-none d-lg-block'>
           <p style={{textAlign: 'center'}}>Soy Ingeniero en Telecomunicaciones y Electrónica, graduado de la Universidad de Oriente de Cuba y me apasiona el desarrollo web.</p>

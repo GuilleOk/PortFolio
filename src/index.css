@@ -20,7 +20,7 @@ body{
   display: flex;
   justify-content: center;
   width: 100vw;
-  box-shadow: 0 0 10rem .1rem black;
+  box-shadow: 0 .1rem .5rem .01rem white;
   backdrop-filter: blur(10px); /* Difuminado del contenido detrás */
   -webkit-backdrop-filter: blur(10px); /* Soporte para navegadores WebKit (Safari, Chrome) */
 }
@@ -28,10 +28,11 @@ body{
 .navbarPhoto{
   width: 2.8rem;
   height: auto;
-  margin-right: .5rem;
+  margin-left: .5rem;
+  margin-right: 1rem;
   border-radius: 100%;
   margin-top: auto;
-  box-shadow: 0 0 1rem .1rem white;
+  box-shadow: 0 0  1rem .1rem white;
 }
 
 .containerNavbar{
@@ -96,6 +97,13 @@ body{
   transform: scale(1.2);
 }
 
+.NameMainPage{
+  text-align: justify; 
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: rgb(159, 248, 171);
+}
+
 .nameHeaderContainer{
   justify-content: center; 
   align-items: center;
@@ -105,27 +113,30 @@ body{
   width: 60%;
 }
 
-.projectToShowSM{
-  width: 90%;
-}
-
 .technologys{
+  display: flex; 
+  align-items: center;
+  margin: 1rem 0; 
   background-color: antiquewhite;
   padding: .3rem .8rem;
   color: black;
   border-radius: 2rem;
 }
 
-.technologysSM{
-  background-color: antiquewhite;
-  padding: .2rem .4rem;
-  gap: .2rem;
-  color: black;
-  border-radius: 2rem;
+.technologyPhoto{
+  display: inline;
+}
+
+.technologyText{
+  display: inline;
 }
 
 .btn-something{
   background-color: rgb(159, 248, 171);
+}
+
+.btn-something p{
+  font-size: 1rem;
 }
 
 .btn-something:hover{
@@ -135,6 +146,11 @@ body{
 }
 
 .technologysContainer{
+  display: flex;
+  justify-content: center;
+  gap: .5rem; 
+  align-items: center; 
+  margin: 1rem 0; 
   flex-wrap: wrap;
 }
 
@@ -143,50 +159,33 @@ body{
   border-radius: 5px;
 }
 
-.photoProjectAllContainer:hover{
-  transition-duration: 200ms;
-  box-shadow: 0 0 10px white;
-}
-
-.arrowProjectGO{
-  width: 2rem;
-  filter: invert(100%);
-}
-
-.arrowProjectGOSM{
-  width: 1rem;
-  filter: invert(100%);
-}
-
-.photoProjectAllContainer{
+.photoProjectAllContainer {
   display: flex;
-  position: relative;
-  padding: 0;
+  border: .1rem solid white;
+  background-color: rgb(7, 44, 10);
+  padding: 2rem 2rem;
   border-radius: 5px;
+  overflow: hidden;
+  transition: all 300ms ease-in-out; /* Animación para todas las propiedades */
 }
 
-.arrowProjectGOContainer{
-  background-color: darkred;
-  position: absolute;
-  z-index: 100;
-  right: 0;
-  top: 0;
-  border-radius: 5px;
+.photoProjectAllContainer:hover {
+  box-shadow: 0 0 15px white;
+}
+
+/* Transición aplicada SIEMPRE a la imagen */
+.imageProject {
+  transition: transform 300ms ease-in-out; /* Base para la animación */
+}
+
+.photoProjectAllContainer:hover .imageProject {
+  transform: scale(1.05); /* Escala al hacer hover */
+  box-shadow: 0 0 8px green;
 }
 
 .arrowProjectGOContainer:hover{
   scale: 1.1;
   box-shadow: 0 0 10px darkred;
-}
-
-.arrowProjectGOContainerSM{
-  background-color: darkred;
-  position: absolute;
-  z-index: 100;
-  right: 0;
-  top: 0;
-  padding: 0 0 ;
-  border-radius: 5px;
 }
 
 .arrowProjectGOContainerSM:hover{
@@ -208,7 +207,8 @@ body{
   position: absolute;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 1rem 1rem 1rem black;
+  box-shadow: 0 0 .5rem .01rem white;
+  /* box-shadow: 0 .5rem 1rem .01rem white; */
 }
 
 .text-body-footer{
@@ -218,15 +218,47 @@ body{
 
 .studyContainer{
   margin-left: 6rem;
+  align-items: center;
 }
 
-.studyContainerSM{
-  margin-left: 2rem;
+.form-check{
+  padding-left: 0;
+}
+
+.form-check-input{
+  margin-left: 0rem !important;
+}
+
+.secondHeaderStudies{
+  margin-left: 1rem; 
+  margin-bottom: .7rem; 
+  font-size: 1.7rem;
+}
+
+.form-check{
+  margin-left: 1rem !important;
+  display: flex;
+  align-items: center;
+  gap: .5rem
 }
 
 .form-check-input:checked {
   background-color: rgb(2, 48, 21);
   border-color: white;
+  font-size: 1.2rem;
+  box-shadow: 0 0 1rem rgb(159, 248, 171);
+}
+
+.form-check-input {
+  font-size: 1.2rem;
+  padding: 0%;
+  margin-top: 0 !important;
+}
+
+.form-check-label{
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0;
 }
 
 .textFooter{
@@ -262,11 +294,43 @@ body{
   align-items: center;
 }
 
+.arrowPhotoProject{
+  filter: invert(100%);
+  height: 3rem;
+}
+
+.ArrowText{
+  text-align: center; 
+  font-size: 2.1rem; 
+  color: rgb(159, 248, 171);
+}
+
+.arrowStudies{
+  height: 3rem;
+  filter: invert(100%);
+}
+
+.headerStudies{
+  text-align: initial; 
+  font-size: 2.2rem; 
+  color: rgb(159, 248, 171);
+  text-shadow: 0 0 1rem rgb(159, 248, 171);
+}
+
 @media (max-width: 820px) {
   .textFooter{
     margin-top: 0px;
     color: white;
     font-size: 1rem;
+  }
+
+  .NameMainPage{
+    text-align: center; 
+    font-size: 2.2rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+    margin-bottom: 0;
+    color: rgb(159, 248, 171);
   }
 
   .linksFooter{
@@ -292,5 +356,113 @@ body{
 
   .nav-link{
     padding: 0 !important;
+  }
+
+  .projectToShow{
+    width: 80vw;
+  }
+
+  .technologysContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem; 
+    align-items: center; 
+    margin: 1rem 0; 
+    flex-wrap: wrap;
+  }
+
+  .technologys{
+    display: flex; 
+    align-items: center;
+    margin: .2rem 0; 
+    background-color: antiquewhite;
+    padding: .3rem .8rem;
+    color: black;
+    border-radius: 2rem;
+  }
+
+  .technologyPhoto{
+    display: inline;
+    max-height: 1rem;
+  }
+
+  .technologyText{
+    display: inline;
+    font-size: 1rem;
+  }
+  .btn-something p{
+    font-size: .8rem;
+  }
+
+  .studyContainer{
+    width: 90vw;
+    margin-left: 1rem;
+    align-items: flex-start;
+  }
+
+  .arrowStudies{
+    display: none;
+  }
+
+  .headerStudies{
+    font-size: 1.4rem;
+  }
+
+  .secondHeaderStudies{
+    margin-left: .8rem; 
+    margin-bottom: .7rem; 
+    font-size: 1rem;
+  }
+
+  .form-check-input:checked {
+    background-color: rgb(2, 48, 21);
+    border-color: white;
+    font-size: 1rem;
+    box-shadow: 0 0 1rem rgb(159, 248, 171);
+  }
+
+  .form-check-input {
+    font-size: 1rem;
+    padding: 0%;
+    min-height: 100%;
+    margin-top: 0 !important;
+  }
+  
+  .form-check-label{
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .photoProjectAllContainer:hover .imageProject {
+    transform: scale(1.08); /* Escala al hacer hover */
+  }
+}
+
+@media (max-width: 480px) {
+  .photoProjectAllContainer:hover .imageProject {
+    transform: scale(1.2); /* Escala al hacer hover */
+  }
+  .btn-something p{
+    font-size: .6rem;
+  }
+
+  .ArrowText{
+    text-align: center; 
+    font-size: 1.5rem; 
+    color: rgb(159, 248, 171);
+  }
+
+  .arrowPhotoProject{
+    filter: invert(100%);
+    height: 2rem;
+  }
+}
+
+@media (max-width: 392px) {
+  .projectToShow{
+    width: 90%;
   }
 }
