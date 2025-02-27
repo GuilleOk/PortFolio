@@ -6,11 +6,12 @@ const Dashboard = () => {
   const navbarCollapse = useRef(null)
 
   const handleCollapse = () => {
+    const bsCollapse = new Collapse(navbarCollapse.current, { toggle: false })
     if (navbarCollapse.current && window.innerWidth < 992) { // 992px es el breakpoint LG de Bootstrap
-      const bsCollapse = new Collapse(navbarCollapse.current, { toggle: false })
       bsCollapse.hide()
     }
   }
+
   return (
     <div style={{position: 'fixed', top: '0', zIndex: '10000', maxWidth: '100vw'}}>
       <nav className="navbar navbar-expand-lg backgroundNavbar" data-bs-theme='dark'>
