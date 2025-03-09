@@ -11,7 +11,7 @@ const Dashboard = () => {
       bsCollapse.hide()
     }
   }
-
+  
   return (
     <div style={{position: 'fixed', top: '0', zIndex: '10000', maxWidth: '100vw'}}>
       <nav className="navbar navbar-expand-lg backgroundNavbar" data-bs-theme='dark'>
