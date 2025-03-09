@@ -18,7 +18,7 @@ const Dashboard = () => {
       <div className="containerNavbar">
         <div>
             <a className="navbar-brand" href="#">
-              <img src='images/portfolioImage1.jpg' className="navbarPhoto" />
+              <img src='/images/portfolioImage.jpg' className="navbarPhoto" alt="navbar photo" />
               <span className="d-sm-inline-block textNavbarSM d-lg-none">
                 Guillermo Fdez. Mtnez.
               </span>

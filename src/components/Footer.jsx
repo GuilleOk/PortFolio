@@ -30,21 +30,7 @@ const Footer = () => {
             <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
           </a>
           </li>
-          <div>
-          </div>
         </ul>
-
-        {/* <div className="secondFooterContainer">
-          <div className="lastFooterContainer text-body-footer" >
-          <div><spam>E-mail: </spam><spam style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', textAlign: 'center' }}>guillermoafernandezmartinez@gmail.com</spam></div>
-          <div className="d-flex justify-content-between align-items-center">
-          <div><spam>Teléfono: </spam><spam style={{ marginLeft: '.5rem', borderBottom: '.1rem solid white', textAlign: 'center' }}>+34633884767</spam></div>
-          <a href="https://www.linkedin.com/in/guillermo-alfredo-fernandez-martinez-a7a59128a" target="_blank" className="nav-link px-2">
-            <img src="images/redes_sociales/linkedin.png" alt="linkedin" className="socialMediaPhotoFooter" />
-          </a>
-          </div>
-          </div>
-        </div> */}
         <p className="text-center text-body-footer"><small>© Todos los derechos reservados</small></p>
       </footer>
     </div>
