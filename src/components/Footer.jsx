@@ -21,7 +21,7 @@ const Footer = () => {
             </NavLink>
           </li>
           <li className="nav-item item">
-            <a href="/CVGuillermoAlfredoFernándezMartínez.docx" rel='noreferrer' target="_blank" download className="nav-link px-2 textFooter">
+            <a href="/CVGuillermoAlfredoFernándezMartínez23-04-2025.docx" rel='noreferrer' target="_blank" download className="nav-link px-2 textFooter">
               CV
             </a>
           </li>
